@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.e2c46cf9.css",
+    "main.css": "/beeproDocs/static/css/main.4eaa4462.css",
     "main.js": "/beeproDocs/static/js/main.b92ababc.js",
     "static/media/exchange-pic.svg": "/beeproDocs/static/media/exchange-pic.318faf56148390d1343dac8424315675.svg",
     "static/media/team-pic.svg": "/beeproDocs/static/media/team-pic.c65e74905f6033180322e9e58924c78c.svg",
@@ -14,11 +14,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.e2c46cf9.css.map": "/beeproDocs/static/css/main.e2c46cf9.css.map",
+    "main.4eaa4462.css.map": "/beeproDocs/static/css/main.4eaa4462.css.map",
     "main.b92ababc.js.map": "/beeproDocs/static/js/main.b92ababc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c46cf9.css",
+    "static/css/main.4eaa4462.css",
     "static/js/main.b92ababc.js"
   ]
 }
