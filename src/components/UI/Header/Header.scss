@@ -1,0 +1,36 @@
+.header-container {
+  width: 100%;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  padding: 14px 25px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+
+  &__menu-btn {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 20px;
+    cursor: pointer;
+
+    > img {
+      height: 13px;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    > p {
+      text-transform: uppercase;
+      color: var(--text-title-color);
+      font-size: var(--font-size-logo);
+      font-weight: var(--font-weight-bold);
+      margin-left: 11px;
+    }
+  }
+}

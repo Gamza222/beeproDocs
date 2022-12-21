@@ -1,0 +1,26 @@
+@import "../../assets/variables.scss";
+
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+
+  &__header {
+    background-color: var(--color-black);
+  }
+
+  &__content {
+    padding: 16px 7px 16px 20px;
+    background-color: var(--color-black);
+    margin-top: 2px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__main-btn {
+      @include sidebarBtn;
+    }
+  }
+}

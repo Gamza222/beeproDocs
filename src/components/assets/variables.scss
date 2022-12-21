@@ -1,0 +1,33 @@
+@mixin sidebarBtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 14px 10px 8px;
+  color: var(--color-link);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-menu-text);
+  width: 100%;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &__arrow {
+    animation: all 0.2s linear;
+    height: 10px;
+    width: 14px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    > img {
+      margin-right: 10px;
+    }
+
+    > p {
+      color: var(--color-link);
+      font-weight: var(--font-weight-normal);
+      font-size: var(--font-size-menu-text);
+      white-space: nowrap;
+    }
+  }
+}

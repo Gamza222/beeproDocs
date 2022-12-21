@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Layout from "./components/UI/Layout/Layout";
+import BeeProPage from "./components/BeeProPage/BeeProPage";
 
 function App() {
+  const [headerHeight, setHeaderHeight] = useState<number>(0);
+  const [sidebarWidth, setSidebarWidth] = useState<number>(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout
+        headerHeight={headerHeight}
+        setHeaderHeight={setHeaderHeight}
+        sidebarWidth={sidebarWidth}
+        setSidebarWidth={setSidebarWidth}
+      >
+        <Routes>
+          <Route path="/" element={<BeeProPage />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }

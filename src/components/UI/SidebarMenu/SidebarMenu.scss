@@ -1,0 +1,19 @@
+@import "../../assets/variables.scss";
+
+.sidebarMenu-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 1px 15px 35px;
+  position: relative;
+  gap: 15px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    background-color: var(--text-title-color);
+    height: 100%;
+    left: 15px;
+  }
+}
