@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9127f8a1.css",
-    "main.js": "/react-gh-pages/static/js/main.756194aa.js",
-    "static/media/logo-pic.svg": "/react-gh-pages/static/media/logo-pic.d63956c0b5008c2978ccdacc7a9eb4d5.svg",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.b8bec142bc8f66677e9a501c019fc3f5.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/menu-pic.svg": "/react-gh-pages/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.9127f8a1.css.map": "/react-gh-pages/static/css/main.9127f8a1.css.map",
-    "main.756194aa.js.map": "/react-gh-pages/static/js/main.756194aa.js.map"
+    "main.css": "/beeproDocs/static/css/main.e2c46cf9.css",
+    "main.js": "/beeproDocs/static/js/main.b92ababc.js",
+    "static/media/exchange-pic.svg": "/beeproDocs/static/media/exchange-pic.318faf56148390d1343dac8424315675.svg",
+    "static/media/team-pic.svg": "/beeproDocs/static/media/team-pic.c65e74905f6033180322e9e58924c78c.svg",
+    "static/media/token-pic.svg": "/beeproDocs/static/media/token-pic.0a09d99150b8f65663259fee253a1e64.svg",
+    "static/media/roadmap-pic.svg": "/beeproDocs/static/media/roadmap-pic.c975ef010f9b81c900e1444daa5e472f.svg",
+    "static/media/nft-pic.svg": "/beeproDocs/static/media/nft-pic.f432373c63f2f60a34aec84fd99104fb.svg",
+    "static/media/dex-pic.svg": "/beeproDocs/static/media/dex-pic.a967736a6e93c608e2688ac6fdff3c65.svg",
+    "static/media/logo-pic.svg": "/beeproDocs/static/media/logo-pic.d63956c0b5008c2978ccdacc7a9eb4d5.svg",
+    "static/media/logo.svg": "/beeproDocs/static/media/logo.b8bec142bc8f66677e9a501c019fc3f5.svg",
+    "static/media/links-pic.svg": "/beeproDocs/static/media/links-pic.c56958179dadf492ce72d5efd0d037ae.svg",
+    "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
+    "index.html": "/beeproDocs/index.html",
+    "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
+    "main.e2c46cf9.css.map": "/beeproDocs/static/css/main.e2c46cf9.css.map",
+    "main.b92ababc.js.map": "/beeproDocs/static/js/main.b92ababc.js.map"
   },
   "entrypoints": [
-    "static/css/main.9127f8a1.css",
-    "static/js/main.756194aa.js"
+    "static/css/main.e2c46cf9.css",
+    "static/js/main.b92ababc.js"
   ]
 }
