@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.4eaa4462.css",
-    "main.js": "/beeproDocs/static/js/main.b92ababc.js",
+    "main.css": "/beeproDocs/static/css/main.85890fa1.css",
+    "main.js": "/beeproDocs/static/js/main.11a8e070.js",
+    "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
+    "static/media/market-pic.png": "/beeproDocs/static/media/market-pic.ca28a9e9853f1cb94018.png",
+    "static/media/beepro-bottom.png": "/beeproDocs/static/media/beepro-bottom.8ded3eacad7c4ff36cb5.png",
     "static/media/exchange-pic.svg": "/beeproDocs/static/media/exchange-pic.318faf56148390d1343dac8424315675.svg",
     "static/media/team-pic.svg": "/beeproDocs/static/media/team-pic.c65e74905f6033180322e9e58924c78c.svg",
     "static/media/token-pic.svg": "/beeproDocs/static/media/token-pic.0a09d99150b8f65663259fee253a1e64.svg",
@@ -14,11 +17,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.4eaa4462.css.map": "/beeproDocs/static/css/main.4eaa4462.css.map",
-    "main.b92ababc.js.map": "/beeproDocs/static/js/main.b92ababc.js.map"
+    "main.85890fa1.css.map": "/beeproDocs/static/css/main.85890fa1.css.map",
+    "main.11a8e070.js.map": "/beeproDocs/static/js/main.11a8e070.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eaa4462.css",
-    "static/js/main.b92ababc.js"
+    "static/css/main.85890fa1.css",
+    "static/js/main.11a8e070.js"
   ]
 }
