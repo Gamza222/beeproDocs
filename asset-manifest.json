@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.5bb1d5db.css",
-    "main.js": "/beeproDocs/static/js/main.a3321073.js",
+    "main.css": "/beeproDocs/static/css/main.edd0275c.css",
+    "main.js": "/beeproDocs/static/js/main.7702c9bd.js",
     "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
     "static/media/tokenomics-img-sm.png": "/beeproDocs/static/media/tokenomics-img-sm.98146ca2cdd0de0a37d5.png",
@@ -24,11 +24,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.5bb1d5db.css.map": "/beeproDocs/static/css/main.5bb1d5db.css.map",
-    "main.a3321073.js.map": "/beeproDocs/static/js/main.a3321073.js.map"
+    "main.edd0275c.css.map": "/beeproDocs/static/css/main.edd0275c.css.map",
+    "main.7702c9bd.js.map": "/beeproDocs/static/js/main.7702c9bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bb1d5db.css",
-    "static/js/main.a3321073.js"
+    "static/css/main.edd0275c.css",
+    "static/js/main.7702c9bd.js"
   ]
 }
