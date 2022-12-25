@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.85890fa1.css",
-    "main.js": "/beeproDocs/static/js/main.bcaf094a.js",
+    "main.css": "/beeproDocs/static/css/main.a71c1445.css",
+    "main.js": "/beeproDocs/static/js/main.05e0f0fc.js",
+    "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
+    "static/media/tokenomics-img-sm.png": "/beeproDocs/static/media/tokenomics-img-sm.98146ca2cdd0de0a37d5.png",
+    "static/media/tokenomics-img-white-sm.png": "/beeproDocs/static/media/tokenomics-img-white-sm.ee4fe5ff58145e68f969.png",
+    "static/media/token-logo.png": "/beeproDocs/static/media/token-logo.d4c4eda5535e0d36d26c.png",
+    "static/media/tokenomics-img.png": "/beeproDocs/static/media/tokenomics-img.c36da2436b9560297d66.png",
     "static/media/market-pic.png": "/beeproDocs/static/media/market-pic.ca28a9e9853f1cb94018.png",
     "static/media/beepro-bottom.png": "/beeproDocs/static/media/beepro-bottom.8ded3eacad7c4ff36cb5.png",
     "static/media/exchange-pic.svg": "/beeproDocs/static/media/exchange-pic.318faf56148390d1343dac8424315675.svg",
+    "static/media/brand-logo.png": "/beeproDocs/static/media/brand-logo.301a1cd545f579c32b2c.png",
     "static/media/team-pic.svg": "/beeproDocs/static/media/team-pic.c65e74905f6033180322e9e58924c78c.svg",
     "static/media/token-pic.svg": "/beeproDocs/static/media/token-pic.0a09d99150b8f65663259fee253a1e64.svg",
     "static/media/roadmap-pic.svg": "/beeproDocs/static/media/roadmap-pic.c975ef010f9b81c900e1444daa5e472f.svg",
@@ -14,14 +20,15 @@
     "static/media/logo-pic.svg": "/beeproDocs/static/media/logo-pic.d63956c0b5008c2978ccdacc7a9eb4d5.svg",
     "static/media/logo.svg": "/beeproDocs/static/media/logo.b8bec142bc8f66677e9a501c019fc3f5.svg",
     "static/media/links-pic.svg": "/beeproDocs/static/media/links-pic.c56958179dadf492ce72d5efd0d037ae.svg",
+    "static/media/text-item-pic.svg": "/beeproDocs/static/media/text-item-pic.17569744745f1b83e13974d863c38489.svg",
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.85890fa1.css.map": "/beeproDocs/static/css/main.85890fa1.css.map",
-    "main.bcaf094a.js.map": "/beeproDocs/static/js/main.bcaf094a.js.map"
+    "main.a71c1445.css.map": "/beeproDocs/static/css/main.a71c1445.css.map",
+    "main.05e0f0fc.js.map": "/beeproDocs/static/js/main.05e0f0fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.85890fa1.css",
-    "static/js/main.bcaf094a.js"
+    "static/css/main.a71c1445.css",
+    "static/js/main.05e0f0fc.js"
   ]
 }
