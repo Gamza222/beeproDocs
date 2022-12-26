@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.ba9a44f8.css",
+    "main.css": "/beeproDocs/static/css/main.5b48fd18.css",
     "main.js": "/beeproDocs/static/js/main.86bd508c.js",
     "static/media/beendexter-bottom-pic.png": "/beeproDocs/static/media/beendexter-bottom-pic.37b9cb9e3f7b70ae3419.png",
     "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
@@ -29,11 +29,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.ba9a44f8.css.map": "/beeproDocs/static/css/main.ba9a44f8.css.map",
+    "main.5b48fd18.css.map": "/beeproDocs/static/css/main.5b48fd18.css.map",
     "main.86bd508c.js.map": "/beeproDocs/static/js/main.86bd508c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9a44f8.css",
+    "static/css/main.5b48fd18.css",
     "static/js/main.86bd508c.js"
   ]
 }
