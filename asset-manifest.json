@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.ae0f3a6a.css",
-    "main.js": "/beeproDocs/static/js/main.1e05600a.js",
+    "main.css": "/beeproDocs/static/css/main.67c5197e.css",
+    "main.js": "/beeproDocs/static/js/main.d2929a0b.js",
     "static/media/beendexter-bottom-pic.png": "/beeproDocs/static/media/beendexter-bottom-pic.37b9cb9e3f7b70ae3419.png",
     "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
@@ -9,9 +9,11 @@
     "static/media/tokenomics-img-white-sm.png": "/beeproDocs/static/media/tokenomics-img-white-sm.ee4fe5ff58145e68f969.png",
     "static/media/token-logo.png": "/beeproDocs/static/media/token-logo.d4c4eda5535e0d36d26c.png",
     "static/media/tokenomics-img.png": "/beeproDocs/static/media/tokenomics-img.c36da2436b9560297d66.png",
+    "static/media/bot-pic.png": "/beeproDocs/static/media/bot-pic.1617219b553364912694.png",
     "static/media/market-pic.png": "/beeproDocs/static/media/market-pic.ca28a9e9853f1cb94018.png",
     "static/media/beepro-bottom.png": "/beeproDocs/static/media/beepro-bottom.8ded3eacad7c4ff36cb5.png",
     "static/media/beendexter-top-pic.png": "/beeproDocs/static/media/beendexter-top-pic.e707136fc03d629c3bf9.png",
+    "static/media/roadmap-pic.png": "/beeproDocs/static/media/roadmap-pic.a198b9985a999b21a55c.png",
     "static/media/nft-mythical.png": "/beeproDocs/static/media/nft-mythical.1b180c55db6f640d142d.png",
     "static/media/nft-immortal.png": "/beeproDocs/static/media/nft-immortal.4ab177ea86047d135978.png",
     "static/media/nft-common.png": "/beeproDocs/static/media/nft-common.9ad0337fdb033bcac793.png",
@@ -29,11 +31,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.ae0f3a6a.css.map": "/beeproDocs/static/css/main.ae0f3a6a.css.map",
-    "main.1e05600a.js.map": "/beeproDocs/static/js/main.1e05600a.js.map"
+    "main.67c5197e.css.map": "/beeproDocs/static/css/main.67c5197e.css.map",
+    "main.d2929a0b.js.map": "/beeproDocs/static/js/main.d2929a0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae0f3a6a.css",
-    "static/js/main.1e05600a.js"
+    "static/css/main.67c5197e.css",
+    "static/js/main.d2929a0b.js"
   ]
 }
