@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beeproDocs/static/css/main.67c5197e.css",
-    "main.js": "/beeproDocs/static/js/main.d2929a0b.js",
+    "main.js": "/beeproDocs/static/js/main.d27222c1.js",
     "static/media/beendexter-bottom-pic.png": "/beeproDocs/static/media/beendexter-bottom-pic.37b9cb9e3f7b70ae3419.png",
     "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
@@ -32,10 +32,10 @@
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
     "main.67c5197e.css.map": "/beeproDocs/static/css/main.67c5197e.css.map",
-    "main.d2929a0b.js.map": "/beeproDocs/static/js/main.d2929a0b.js.map"
+    "main.d27222c1.js.map": "/beeproDocs/static/js/main.d27222c1.js.map"
   },
   "entrypoints": [
     "static/css/main.67c5197e.css",
-    "static/js/main.d2929a0b.js"
+    "static/js/main.d27222c1.js"
   ]
 }
