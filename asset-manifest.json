@@ -1,9 +1,18 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.67c5197e.css",
-    "main.js": "/beeproDocs/static/js/main.d27222c1.js",
+    "main.css": "/beeproDocs/static/css/main.1135107c.css",
+    "main.js": "/beeproDocs/static/js/main.69bb6fd4.js",
+    "static/media/calyp.svg": "/beeproDocs/static/media/calyp.fe91c55359d214f83b086f50095e2b45.svg",
+    "static/media/jay.svg": "/beeproDocs/static/media/jay.627165baf5c09bf761455cce97138b31.svg",
+    "static/media/qvant.svg": "/beeproDocs/static/media/qvant.6115c1d2e927272116f7353316559646.svg",
+    "static/media/ise.svg": "/beeproDocs/static/media/ise.270d24d4938cab7910321f26fab9dd4d.svg",
+    "static/media/sj.svg": "/beeproDocs/static/media/sj.1c3bcbf573ba6298d1f811b52273f4ae.svg",
+    "static/media/mk.svg": "/beeproDocs/static/media/mk.10572386fd2871e93267651130ffed9b.svg",
     "static/media/beendexter-bottom-pic.png": "/beeproDocs/static/media/beendexter-bottom-pic.37b9cb9e3f7b70ae3419.png",
+    "static/media/lem.svg": "/beeproDocs/static/media/lem.ccbce6e3780f11e4c8e3f858ee17a86d.svg",
+    "static/media/face.svg": "/beeproDocs/static/media/face.e73edb0a02fd03f277a50b8e10aaad60.svg",
     "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
+    "static/media/forse.svg": "/beeproDocs/static/media/forse.dd247fcec939863cd41d17075319f7d0.svg",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
     "static/media/tokenomics-img-sm.png": "/beeproDocs/static/media/tokenomics-img-sm.98146ca2cdd0de0a37d5.png",
     "static/media/tokenomics-img-white-sm.png": "/beeproDocs/static/media/tokenomics-img-white-sm.ee4fe5ff58145e68f969.png",
@@ -21,6 +30,7 @@
     "static/media/brand-logo.png": "/beeproDocs/static/media/brand-logo.301a1cd545f579c32b2c.png",
     "static/media/team-pic.svg": "/beeproDocs/static/media/team-pic.c65e74905f6033180322e9e58924c78c.svg",
     "static/media/token-pic.svg": "/beeproDocs/static/media/token-pic.0a09d99150b8f65663259fee253a1e64.svg",
+    "static/media/team-bg.png": "/beeproDocs/static/media/team-bg.e1e4da88f3454015e9f8.png",
     "static/media/roadmap-pic.svg": "/beeproDocs/static/media/roadmap-pic.c975ef010f9b81c900e1444daa5e472f.svg",
     "static/media/nft-pic.svg": "/beeproDocs/static/media/nft-pic.f432373c63f2f60a34aec84fd99104fb.svg",
     "static/media/dex-pic.svg": "/beeproDocs/static/media/dex-pic.a967736a6e93c608e2688ac6fdff3c65.svg",
@@ -31,11 +41,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.67c5197e.css.map": "/beeproDocs/static/css/main.67c5197e.css.map",
-    "main.d27222c1.js.map": "/beeproDocs/static/js/main.d27222c1.js.map"
+    "main.1135107c.css.map": "/beeproDocs/static/css/main.1135107c.css.map",
+    "main.69bb6fd4.js.map": "/beeproDocs/static/js/main.69bb6fd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.67c5197e.css",
-    "static/js/main.d27222c1.js"
+    "static/css/main.1135107c.css",
+    "static/js/main.69bb6fd4.js"
   ]
 }
