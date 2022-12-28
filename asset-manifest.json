@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beeproDocs/static/css/main.92d3f761.css",
+    "main.css": "/beeproDocs/static/css/main.9abfdd0a.css",
     "main.js": "/beeproDocs/static/js/main.69bb6fd4.js",
     "static/media/calyp.svg": "/beeproDocs/static/media/calyp.fe91c55359d214f83b086f50095e2b45.svg",
     "static/media/jay.svg": "/beeproDocs/static/media/jay.627165baf5c09bf761455cce97138b31.svg",
@@ -41,11 +41,11 @@
     "static/media/acc-pic.svg": "/beeproDocs/static/media/acc-pic.96c00213f843ca3f69f8ebfd6d742746.svg",
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
-    "main.92d3f761.css.map": "/beeproDocs/static/css/main.92d3f761.css.map",
+    "main.9abfdd0a.css.map": "/beeproDocs/static/css/main.9abfdd0a.css.map",
     "main.69bb6fd4.js.map": "/beeproDocs/static/js/main.69bb6fd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.92d3f761.css",
+    "static/css/main.9abfdd0a.css",
     "static/js/main.69bb6fd4.js"
   ]
 }
