@@ -1,12 +1,26 @@
 .header-container {
-  width: 100%;
+  width: -webkit-fill-available;
   background-color: var(--color-black);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 14px 25px;
   height: 60px;
   position: fixed;
+  z-index: 10;
   top: 0;
+  min-width: 280px;
+
+  @media screen and (min-width: 900px) {
+    left: 0 !important;
+    height: 80px;
+  }
+  @media screen and (max-width: 900px) {
+    left: 0 !important;
+  }
+  @media screen and (min-width: 2000px) {
+    position: absolute;
+  }
 
   &__menu-btn {
     display: flex;
@@ -15,15 +29,56 @@
     margin-right: 20px;
     cursor: pointer;
 
+    @media screen and (min-width: 900px) {
+      display: none;
+    }
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+
     > img {
       height: 13px;
     }
+  }
+  &__menu-btn-sm {
+    display: none;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 20px;
+    cursor: pointer;
+
+    @media screen and (max-width: 900px) {
+      display: flex;
+    }
+
+    > img {
+      height: 13px;
+    }
+
+    > svg {
+      color: var(--text-title-color);
+      font-size: 20px;
+    }
+  }
+
+  &__darkmode {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    height: fit-content;
+    display: flex;
   }
 
   &__logo {
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    > img {
+      @media screen and (min-width: 900px) {
+        width: 50px;
+      }
+    }
 
     > p {
       text-transform: uppercase;

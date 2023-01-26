@@ -28,6 +28,141 @@
       font-weight: var(--font-weight-normal);
       font-size: var(--font-size-menu-text);
       white-space: nowrap;
+      text-align: start;
+
+      @media screen and (max-width: 450px) {
+        white-space: normal;
+      }
+    }
+  }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  position: absolute;
+  z-index: 0;
+  align-items: center;
+  min-width: 280px;
+
+  @media screen and (max-width: 900px) {
+    position: relative;
+    left: 0 !important;
+  }
+
+  &__image-bottom {
+    max-width: 100%;
+  }
+
+  &__content {
+    padding: 30px 40px;
+    max-width: 1708px;
+    background-color: var(--color-bg);
+    width: 100%;
+
+    &__content {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  &__nfts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+
+    > img {
+      width: 200px;
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 10px;
+    background: linear-gradient(
+      147.89deg,
+      #c89637 0%,
+      #ffd86e 15.47%,
+      #fdd56c 15.64%,
+      #dfb04c 18.09%,
+      #c89637 20.65%,
+      #ba842a 23.34%,
+      #b17a24 26.25%,
+      #af7722 29.75%,
+      #c9973c 38.21%,
+      #e6bc5f 48.23%,
+      #f2cb6d 53.76%,
+      #ebc365 58.21%,
+      #d9ac4f 64.66%,
+      #be8a31 72.27%,
+      #ffd86e 79.59%,
+      #d5a443 82.84%,
+      #f6cc64 90.42%,
+      #af7722 95.24%,
+      #b37c25 98.51%,
+      #bf8a2f 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  &__subtitle {
+    font-size: var(--font-size-subtitle);
+    font-weight: var(--font-weight-normal);
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-normal);
+    color: var(--text-color);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+  }
+
+  &__top-pic {
+    height: 234px;
+    background-image: url('./images/pages/beepro-top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    max-width: 1708px;
+    width: 100%;
+    background-position: center;
+    @media screen and (min-width: 1302px) {
+      background-size: 105%;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+
+      > img {
+        height: 100px;
+        width: 100px;
+      }
+      > p {
+        font-size: 50px;
+        color: #fff;
+        font-weight: var(--font-weight-bold);
+      }
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
     }
   }
 }

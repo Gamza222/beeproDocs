@@ -1,0 +1,32 @@
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 40px;
+  flex-direction: column;
+  margin-top: 40px;
+
+  &__link {
+    > p {
+      font-size: 16px;
+      font-weight: var(--font-weight-bold);
+    }
+    gap: 16px;
+    font-size: 20px;
+    color: var(--text-color);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.links-block {
+  background-size: 100% 98%;
+
+  &:hover {
+    .links-container__link {
+      transform: translateY(1px);
+    }
+  }
+}

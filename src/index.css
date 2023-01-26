@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;600;700;800;900&family=Codystar:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;600;700;800;900&family=Codystar:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --color-link: #8899a8;
@@ -6,6 +6,29 @@
   --color-bg: #fff;
   --text-color: #000;
   --text-title-color: #fff;
+  --color-block: #fff;
+  --color-block-before: linear-gradient(
+    147.89deg,
+    #ffd86e 15.47%,
+    #fdd56c 15.64%,
+    #dfb04c 18.09%,
+    #c89637 20.65%,
+    #ba842a 23.34%,
+    #b17a24 26.25%,
+    #af7722 29.75%,
+    #c9973c 38.21%,
+    #e6bc5f 48.23%,
+    #f2cb6d 53.76%,
+    #ebc365 58.21%,
+    #d9ac4f 64.66%,
+    #be8a31 72.27%,
+    #af7722 76.24%,
+    #b37c25 79.51%,
+    #ffd86e 79.59%,
+    #bf8a2f 83.5%,
+    #d5a443 87.84%,
+    #f6cc64 92.42%
+  );
 
   /*font-sizes*/
   --font-size-menu-text: 14px;
@@ -20,9 +43,30 @@
   --font-weight-normal: 400;
 }
 
+@media screen and (min-width: 900px) {
+  :root {
+    /*font-sizes*/
+    --font-size-menu-text: 14px;
+    --font-size-menu-text-variant: 12px;
+    --font-size-logo: 23px;
+    --font-size-title: 40px;
+    --font-size-subtitle: 20px;
+    --font-size-text: 16px;
+    --font-size-roadmap-title: 19px;
+
+    /*font-weights*/
+    --font-weight-bold: 700;
+    --font-weight-normal: 400;
+  }
+}
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--color-bg);
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 * {
@@ -52,4 +96,323 @@ body {
 
 .link-text-open {
   font-weight: var(--font-weight-bold) !important;
+}
+
+.link-semiopen {
+  background: transparent !important;
+  /* Glassy */
+  backdrop-filter: none;
+  color: var(--color-link);
+  box-shadow: none;
+}
+
+.link-semiopen p {
+  color: var(--color-link) !important;
+}
+.link-semiopen svg {
+  color: var(--color-link) !important;
+}
+
+.layot-container {
+  background-color: var(--color-bg);
+}
+
+.beendexter-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 140px;
+  gap: 21px;
+}
+
+.beendexter-boxes-box {
+  width: 100%;
+  max-width: 550px;
+  padding: 15px 23px;
+  position: relative;
+  background: var(--color-bg);
+}
+
+.beendexter-boxes-box p {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-color);
+}
+
+.beendexter-logo-bottom {
+  display: none !important;
+}
+
+.beendexter-boxes-box-wrapper {
+  width: 100%;
+  max-width: 550px;
+  background: linear-gradient(
+    147.89deg,
+    #ffd86e 15.47%,
+    #fdd56c 15.64%,
+    #dfb04c 18.09%,
+    #c89637 20.65%,
+    #ba842a 23.34%,
+    #b17a24 26.25%,
+    #af7722 29.75%,
+    #c9973c 38.21%,
+    #e6bc5f 48.23%,
+    #f2cb6d 53.76%,
+    #ebc365 58.21%,
+    #d9ac4f 64.66%,
+    #be8a31 72.27%,
+    #af7722 76.24%,
+    #b37c25 79.51%,
+    #ffd86e 79.59%,
+    #bf8a2f 83.5%,
+    #d5a443 87.84%,
+    #f6cc64 92.42%
+  );
+  padding: 1px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 17px;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.block {
+  background-image: url('../src/components/assets/images/pages/frame-black.png');
+  padding: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  background-color: var(--color-block);
+}
+
+.block p {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-color);
+}
+
+.block p span {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color);
+}
+
+.page-container-tokenomics-img-white {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.page-container-tokenomics-img {
+  display: none;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.page-container-tokenomics-img-sm,
+.page-container-tokenomics-img-white-sm {
+  display: none !important;
+  width: 100%;
+  margin-left: 15px;
+  margin-bottom: 40px !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .blocks {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .blocks .block {
+    background-size: 100% 90%;
+  }
+
+  .blocks .block p {
+    text-align: center;
+  }
+
+  .blocks .block::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 94% !important;
+    height: 25px !important;
+    background: linear-gradient(
+      147.89deg,
+      #ffd86e 15.47%,
+      #fdd56c 15.64%,
+      #dfb04c 18.09%,
+      #c89637 20.65%,
+      #ba842a 23.34%,
+      #b17a24 26.25%,
+      #af7722 29.75%,
+      #c9973c 38.21%,
+      #e6bc5f 48.23%,
+      #f2cb6d 53.76%,
+      #ebc365 58.21%,
+      #d9ac4f 64.66%,
+      #be8a31 72.27%,
+      #af7722 76.24%,
+      #b37c25 79.51%,
+      #ffd86e 79.59%,
+      #bf8a2f 83.5%,
+      #d5a443 87.84%,
+      #f6cc64 92.42%
+    );
+    left: 50% !important;
+    width: 2px !important;
+  }
+
+  .blocks .block:last-child::before {
+    display: none;
+  }
+
+  .blocks .block br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar-container-close {
+    width: 0;
+    max-width: 0;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1108px) {
+  .block {
+    background-size: 100% 98%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .blocks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .our-brand-blocks1 .block:nth-child(1)::before,
+  .our-brand-blocks1 .block:nth-child(2)::before,
+  .our-brand-blocks1 .block:nth-child(4)::before,
+  .our-brand-blocks1 .block:nth-child(5)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(
+      147.89deg,
+      #ffd86e 15.47%,
+      #fdd56c 15.64%,
+      #dfb04c 18.09%,
+      #c89637 20.65%,
+      #ba842a 23.34%,
+      #b17a24 26.25%,
+      #af7722 29.75%,
+      #c9973c 38.21%,
+      #e6bc5f 48.23%,
+      #f2cb6d 53.76%,
+      #ebc365 58.21%,
+      #d9ac4f 64.66%,
+      #be8a31 72.27%,
+      #af7722 76.24%,
+      #b37c25 79.51%,
+      #ffd86e 79.59%,
+      #bf8a2f 83.5%,
+      #d5a443 87.84%,
+      #f6cc64 92.42%
+    );
+    left: 100%;
+    width: 30px;
+  }
+  .our-brand-blocks1 .block:nth-child(3)::before,
+  .our-brand-blocks1 .block:nth-child(5)::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .block {
+    width: 100% !important;
+    background-size: 100% 100% !important;
+  }
+
+  .block p {
+    padding: 5px !important;
+  }
+
+  .page-container-tokenomics-img-white,
+  .page-container-tokenomics-img {
+    display: none !important;
+  }
+
+  .page-container-tokenomics-img-white-sm {
+    display: block !important;
+  }
+
+  .page-container-tokenomics-img-white-sm,
+  .page-container-tokenomics-img-sm {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 4%;
+  }
+
+  .block-tokenomics {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page-container-tokenomics-img-white-sm,
+  .page-container-tokenomics-img-sm {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .page-container-tokenomics-img-white-sm,
+  .page-container-tokenomics-img-sm {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .page-container-tokenomics-img-sm,
+  .page-container-tokenomics-img-white-sm {
+    margin-left: 8px;
+  }
+}
+
+.darkmode {
+  --color-link: #8899a8;
+  --color-black: #000000;
+  --color-bg: #1c1c1c;
+  --text-color: #fff;
+  --text-title-color: #fff;
+  --color-block: #1c1c1c;
+  --color-block-before: rgb(163, 163, 163);
+}
+
+.darkmode .page-container-tokenomics-img-white {
+  display: none !important;
+}
+
+.darkmode .page-container-tokenomics-img {
+  display: block;
+}
+
+.darkmode .page-container-tokenomics-img-white-sm {
+  display: none !important;
+}
+
+.darkmode .page-container-tokenomics-img-sm {
+  display: block !important;
+}
+
+.darkmode .beendexter-logo-bottom {
+  display: block !important;
 }

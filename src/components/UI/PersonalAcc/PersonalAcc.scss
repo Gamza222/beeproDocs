@@ -1,0 +1,121 @@
+.personal-acc-title {
+  text-align: center;
+  color: var(--text-color);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-text);
+  margin-top: 70px;
+}
+
+.personal-acc-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  gap: 30px;
+
+  @media screen and (min-width: 1350px) {
+    width: 60%;
+  }
+  @media screen and (min-width: 1650px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 1850px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 650px) {
+    width: 100%;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+  }
+
+  &::before,
+  &::after {
+    background: linear-gradient(
+      147.89deg,
+      #ffd86e 15.47%,
+      #fdd56c 15.64%,
+      #dfb04c 18.09%,
+      #c89637 20.65%,
+      #ba842a 23.34%,
+      #b17a24 26.25%,
+      #af7722 29.75%,
+      #c9973c 38.21%,
+      #e6bc5f 48.23%,
+      #f2cb6d 53.76%,
+      #ebc365 58.21%,
+      #d9ac4f 64.66%,
+      #be8a31 72.27%,
+      #af7722 76.24%,
+      #b37c25 79.51%,
+      #ffd86e 79.59%,
+      #bf8a2f 83.5%,
+      #d5a443 87.84%,
+      #f6cc64 92.42%
+    );
+  }
+  .block {
+    background-size: 100% 95%;
+    position: relative;
+
+    &__left {
+      position: absolute;
+      top: 50%;
+      left: -40px;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 1px;
+      background: var(--color-block-before);
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #c4c4c4;
+      }
+    }
+
+    &__right {
+      position: absolute;
+      top: 50%;
+      right: -40px;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 1px;
+      background: var(--color-block-before);
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        right: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #c4c4c4;
+      }
+    }
+  }
+}

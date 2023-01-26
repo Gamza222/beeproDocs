@@ -1,0 +1,44 @@
+.our-brand-blocks1 .block:nth-child(1)::before,
+.our-brand-blocks1 .block:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  background: linear-gradient(
+    147.89deg,
+    #ffd86e 15.47%,
+    #fdd56c 15.64%,
+    #dfb04c 18.09%,
+    #c89637 20.65%,
+    #ba842a 23.34%,
+    #b17a24 26.25%,
+    #af7722 29.75%,
+    #c9973c 38.21%,
+    #e6bc5f 48.23%,
+    #f2cb6d 53.76%,
+    #ebc365 58.21%,
+    #d9ac4f 64.66%,
+    #be8a31 72.27%,
+    #af7722 76.24%,
+    #b37c25 79.51%,
+    #ffd86e 79.59%,
+    #bf8a2f 83.5%,
+    #d5a443 87.84%,
+    #f6cc64 92.42%
+  );
+  left: 100%;
+  width: 30px;
+
+  @media screen and (max-width: 1100px) {
+  }
+}
+
+.our-brand-blocks1 .block:last-child::before {
+  display: none;
+}
+
+.brand-logo-bottom {
+  position: absolute;
+  right: 0;
+  top: 500px;
+}
