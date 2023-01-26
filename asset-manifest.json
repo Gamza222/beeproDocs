@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beeproDocs/static/css/main.3fabcc67.css",
-    "main.js": "/beeproDocs/static/js/main.3d32bbe1.js",
+    "main.js": "/beeproDocs/static/js/main.c19963af.js",
     "static/media/calyp.svg": "/beeproDocs/static/media/calyp.fe91c55359d214f83b086f50095e2b45.svg",
     "static/media/jay.svg": "/beeproDocs/static/media/jay.627165baf5c09bf761455cce97138b31.svg",
     "static/media/qvant.svg": "/beeproDocs/static/media/qvant.6115c1d2e927272116f7353316559646.svg",
@@ -11,13 +11,13 @@
     "static/media/beendexter-bottom-pic.png": "/beeproDocs/static/media/beendexter-bottom-pic.37b9cb9e3f7b70ae3419.png",
     "static/media/lem.svg": "/beeproDocs/static/media/lem.ccbce6e3780f11e4c8e3f858ee17a86d.svg",
     "static/media/face.svg": "/beeproDocs/static/media/face.e73edb0a02fd03f277a50b8e10aaad60.svg",
-    "static/media/tokenomics-img-white.png": "/beeproDocs/static/media/tokenomics-img-white.3ef242151ca99bdcf5f6.png",
+    "static/media/tokenomics-big-black.png": "/beeproDocs/static/media/tokenomics-big-black.59697d301569a77ee761.png",
+    "static/media/tokenomics-big-white.png": "/beeproDocs/static/media/tokenomics-big-white.81192e9069e331b60c7f.png",
     "static/media/forse.svg": "/beeproDocs/static/media/forse.dd247fcec939863cd41d17075319f7d0.svg",
     "static/media/beepro-top.png": "/beeproDocs/static/media/beepro-top.e95e1562989ddf331bed.png",
-    "static/media/tokenomics-img-sm.png": "/beeproDocs/static/media/tokenomics-img-sm.98146ca2cdd0de0a37d5.png",
-    "static/media/tokenomics-img-white-sm.png": "/beeproDocs/static/media/tokenomics-img-white-sm.ee4fe5ff58145e68f969.png",
+    "static/media/tokenomics-sm-black.png": "/beeproDocs/static/media/tokenomics-sm-black.df32a303cf3fcb8743f2.png",
+    "static/media/tokenomics-sm-white.png": "/beeproDocs/static/media/tokenomics-sm-white.79396e75101303e4c017.png",
     "static/media/token-logo.png": "/beeproDocs/static/media/token-logo.d4c4eda5535e0d36d26c.png",
-    "static/media/tokenomics-img.png": "/beeproDocs/static/media/tokenomics-img.c36da2436b9560297d66.png",
     "static/media/bot-pic.png": "/beeproDocs/static/media/bot-pic.1617219b553364912694.png",
     "static/media/market-pic.png": "/beeproDocs/static/media/market-pic.ca28a9e9853f1cb94018.png",
     "static/media/beepro-bottom.png": "/beeproDocs/static/media/beepro-bottom.8ded3eacad7c4ff36cb5.png",
@@ -42,10 +42,10 @@
     "index.html": "/beeproDocs/index.html",
     "static/media/menu-pic.svg": "/beeproDocs/static/media/menu-pic.43048d213433a9a465b2175c113394d7.svg",
     "main.3fabcc67.css.map": "/beeproDocs/static/css/main.3fabcc67.css.map",
-    "main.3d32bbe1.js.map": "/beeproDocs/static/js/main.3d32bbe1.js.map"
+    "main.c19963af.js.map": "/beeproDocs/static/js/main.c19963af.js.map"
   },
   "entrypoints": [
     "static/css/main.3fabcc67.css",
-    "static/js/main.3d32bbe1.js"
+    "static/js/main.c19963af.js"
   ]
 }
