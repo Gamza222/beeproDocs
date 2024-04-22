@@ -59,7 +59,7 @@
     padding: 30px 40px;
     max-width: 1708px;
     background-color: var(--color-bg);
-    width: 100%;
+    width: --webkit-fill-available;
 
     &__content {
       position: relative;
